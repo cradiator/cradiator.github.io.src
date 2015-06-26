@@ -1,0 +1,14 @@
+digraph G {
+    // default attributes
+    node[shape=record]
+    edge[dir=both, arrowtail=normal, arrowhead=none]
+
+    // node delaration
+    Animal[label="{Animal|+eat():void\n+sleep():void}"]
+    Cat[label="{Cat|+mew():void}"]
+    Dog[label="{Dog|+bark():void}"]
+
+    // edge
+    Animal->Cat
+    Animal->Dog
+}
