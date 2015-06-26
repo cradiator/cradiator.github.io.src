@@ -27,7 +27,7 @@ fancybox: true
 google_analytics:
 rss:
 
-comment_provider:
+comment_provider: duoshuo
 #comment_provider: facebook
 # Facebook comment
 facebook:
